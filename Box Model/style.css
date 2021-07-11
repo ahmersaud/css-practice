@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0%;
   font-size: 40px;
+  box-sizing: border-box;
+  /* the above property (ox-sizing: border-box;)means that the height and width mentianed will cover 
+  all the margin,padding,border and content 
+  in simple words the hieght and width mentianed will be the over all height and width of the element */
 }
 
 #box-one {
@@ -11,8 +15,8 @@
   padding: 20px;
   border: 10px solid purple;
   margin: 20px;
-  /* in a box-model margin  collapses between tow elements that are next to each other 
-   element will larger margin will be shown in between them */
+  /* in a box-model margin  collapses between tow elements that are next to each other, 
+   element with larger margin will be shown in between them */
 }
 #box-two {
   background-color: lightblue;
